@@ -1,0 +1,97 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	font-family: Avenir; 
+	margin-left: 200px;
+	padding: 0px;
+	background-image: url("zenLOL.png");
+	background-size: 30em;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #FEFEFE;
+	}
+body { 
+	font-family: Avenir;
+	font-size: 20px;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #FEFEFE; 
+	margin-top: 500px;
+	margin-left: 200px;
+	padding: 10px;
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+p { 
+	margin-top: 10px;
+	margin-left: 50px;
+	text-align: justify; left: 20px;
+	}
+h3 { 
+	font-family: Avenir;
+	letter-spacing: 1px; 
+	padding-top: 0px;
+	padding-bottom: 4px;
+	margin-bottom: 0px; 
+	color: #7ABC8B;
+	margin-left: 0px;
+	font-kerning: auto;
+	font-size: 25px
+	}
+h2 {
+	font-size: 2.5em;
+	color: #666666;
+	text-align: left;
+	letter-spacing: 20px;
+	margin-left: 0em;
+	padding: 0px;
+}
+h1 { 
+	font-family: Avenir;
+	letter-spacing: 5px;
+	font-size: 50px;
+	margin-bottom: 0px; 
+	color: #7ABC8B;
+	}
+footer {
+	padding-top:10px;
+	padding-bottom: 350px;
+	text-align: center;
+	font-size: 2.5em;
+	background-image: url(zenLOL.png);
+	background-repeat: no-repeat;
+	background-size: 5em;
+	background-position: center;
+}
+.a zen-validate-css {
+	padding-top: 200px; 
+	font: normal;
+	font: small-caps;
+	font-weight:100;
+	color: #000000;	
+}
+a:link { 
+	font: small-caps;
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: #815CB1;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #000000;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: line-through; 
+	color: #7ABC8B;
+	}
